@@ -1,0 +1,12 @@
+[submodule "ThirdParty/spdlog/spdlog"]
+	path = ThirdParty/spdlog/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "ThirdParty/fmt/fmt"]
+	path = ThirdParty/fmt/fmt
+	url = https://github.com/fmtlib/fmt
+[submodule "ThirdParty/minhook/minhook"]
+	path = ThirdParty/minhook/minhook
+	url = https://github.com/TsudaKageyu/minhook
+[submodule "ThirdParty/imgui/imgui"]
+	path = ThirdParty/imgui/imgui
+	url = https://github.com/ocornut/imgui
