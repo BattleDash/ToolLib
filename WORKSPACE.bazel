@@ -1,0 +1,11 @@
+workspace(name = "toollib")
+
+load("@toollib//:setup.bzl", "toollib_workspace_setup")
+
+toollib_workspace_setup()
+
+load("@bazel_skylib//:workspace.bzl", "bazel_skylib_workspace")
+load("@hedron_compile_commands//:workspace_setup.bzl", "hedron_compile_commands_setup")
+
+bazel_skylib_workspace()
+hedron_compile_commands_setup()
